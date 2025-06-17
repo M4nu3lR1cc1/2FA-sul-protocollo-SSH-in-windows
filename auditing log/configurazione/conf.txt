@@ -1,0 +1,33 @@
+gpedit.msc → Configurazione computer → Impostazioni di Windows → Impostazioni di sicurezza → Criteri di controllo → Controllo accesso oggetto
+
+
+Attiva queste policy:
+
+Controllo accesso oggetto → Successo e Insuccesso
+
+Accesso account → Tentativi di accesso → Successo e Insuccesso
+
+Accesso account → Accesso ai servizi → Successo e Insuccesso
+
+Se usi un server, lo puoi fare via Group Policy Management (gpmc.msc)
+
+
+--------------------------------------
+
+Per SSH, gli eventi sono registrati sotto:
+
+
+Visualizzatore eventi → Registri di Windows → Sicurezza
+Cerca Event ID come:
+
+
+4624 → Accesso riuscito
+
+4625 → Accesso non riuscito
+
+4672 → Accesso speciale con privilegi
+
+4648 → Accesso tramite credenziali esplicite
+
+Puoi filtrare questi eventi per LogonType = 10 (accesso remoto) o cercare il processo sshd.
+
