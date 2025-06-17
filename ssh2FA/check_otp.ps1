@@ -1,3 +1,7 @@
+# MIT License
+# Copyright (c) 2025 Manuel Ricci
+# See LICENSE file in the root of this repository for full license information.
+
 # Percorso al file log dei codici TOTP
 $totpLogPath = "C:\Users\Proprietario\Desktop\codici_totp_log.txt"
 
