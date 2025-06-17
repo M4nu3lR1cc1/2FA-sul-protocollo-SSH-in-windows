@@ -50,8 +50,7 @@ Non è pensato per ambienti enterprise senza ulteriori misure di sicurezza.
 
 Proteggi bene la chiave segreta (config.json) e limita l'accesso in lettura.
 
-🧑‍💻 Autore
-ManuelRicci
+🧑‍💻 Autore: ManuelRicci
 
 YouTube: https://www.youtube.com/channel/UCbfJzXsKc9lhrpH5-sa7zcg
 
