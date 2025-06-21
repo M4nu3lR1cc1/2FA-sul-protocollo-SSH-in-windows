@@ -1,7 +1,7 @@
 # 2FA-sul-protocollo-SSH-in-windows
 # 🔐 Autenticazione a Due Fattori (2FA) su SSH in Windows (senza software di terze parti)
 
-Questo progetto dimostra come implementare un sistema di autenticazione a due fattori (2FA) per connessioni SSH su **Windows**, senza utilizzare applicazioni di terze parti come Google Authenticator.  
+Questo progetto dimostra come implementare un sistema di autenticazione a due fattori (2FA) per connessioni SSH su **Windows**, senza utilizzare applicazioni di terze parti.  
 La soluzione è completamente **self-hosted**, ed è basata su uno **script Python** per generare codici TOTP e uno **script PowerShell** per la verifica OTP, la gestione dei log e l'invio delle notifiche via email.
 
 ## 📌 Funzionalità
@@ -48,7 +48,7 @@ Questo sistema non utilizza PAM o servizi esterni: l'affidabilità è legata all
 
 Non è pensato per ambienti enterprise senza ulteriori misure di sicurezza.
 
-Proteggi bene la chiave segreta (config.json) e limita l'accesso in lettura.
+Proteggi bene la chiave segreta e limita l'accesso in lettura.
 
 Link del video dimostrativo: https://youtu.be/URGTWF2Gca4
 
